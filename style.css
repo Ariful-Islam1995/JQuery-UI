@@ -1,0 +1,66 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+
+#first{
+	height:100px;
+	width:100px;
+	background:red;
+	overflow:hidden;
+	text-align:center;
+}
+
+#draggable2{
+	height:100px;
+	width:100px;
+	background:red;
+	overflow:hidden;
+	text-align:center;
+}
+#draggable{
+	height:100px;
+	width:100px;
+	background:red;
+	overflow:hidden;
+	text-align:center;
+}
+#droppable{
+	height:100px;
+	width:100px;
+	background:red;
+	overflow:hidden;
+	text-align:center;
+	color:#FFF;
+}
+
+#UL { 
+list-style-type: none;
+margin-bottom: 50px; 
+padding: 0; 
+width: 60%; 
+}
+
+
+#UL ..ui-selecting {
+	background: #DDD;
+}
+#UL .ui-selected {
+	background:yellow;
+	color:green;
+}
+
+#LI {
+	margin-bottom: 3px;
+	padding: 11px;
+	font-size: 1.4em;
+	height: 18px;
+	line-height: 16px;
+	border: 1px solid #DDD;
+}
+
+span{
+	font-size: 30px;
+	padding-bottom: 25px;
+}
